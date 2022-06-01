@@ -53,11 +53,4 @@ tests:
     source-dirs: tests
     ghc-options: -threaded -rtsopts "-with-rtsopts=-N"
     dependencies:
-      - freckle-app
       - hspec
-
-  doctest:
-    main: Main.hs
-    source-dirs: doctest
-    dependencies:
-      - freckle-app
