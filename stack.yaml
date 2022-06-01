@@ -1,22 +1,10 @@
 resolver: lts-19.6
 
 ghc-options:
-  "$locals": >-
-    -fwrite-ide-info
-    -Weverything
-    -Wno-all-missed-specialisations
-    -Wno-deriving-typeable
-    -Wno-implicit-prelude
-    -Wno-incomplete-uni-patterns
-    -Wno-missed-specialisations
-    -Wno-missing-export-lists
-    -Wno-missing-exported-signatures
-    -Wno-missing-import-lists
-    -Wno-missing-local-signatures
-    -Wno-missing-monadfail-instances
-    -Wno-missing-safe-haskell-mode
-    -Wno-monomorphism-restriction
-    -Wno-partial-fields
-    -Wno-prepositive-qualified-module
-    -Wno-safe
-    -Wno-unsafe
+  - -Weverything
+  - -Wno-missing-exported-signatures # re-enables missing-signatures
+  - -Wno-missing-import-lists
+  - -Wno-missing-local-signatures
+  - -Wno-monomorphism-restriction
+  - -Wno-unsafe
+  - -Wno-safe

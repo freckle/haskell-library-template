@@ -53,4 +53,5 @@ tests:
     source-dirs: tests
     ghc-options: -threaded -rtsopts "-with-rtsopts=-N"
     dependencies:
+      - haskell-library-template
       - hspec
