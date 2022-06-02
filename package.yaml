@@ -4,7 +4,7 @@ version: 0.0.0.0
 maintainer: Freckle Education
 category: Utils
 github: freckle/haskell-library-template
-synopsis: [synopsis]
+synopsis: "[synopsis]"
 description: Please see README.md
 
 extra-doc-files:
@@ -60,7 +60,6 @@ default-extensions:
 
 library:
   source-dirs: library
-  dependencies:
 
 tests:
   spec:
