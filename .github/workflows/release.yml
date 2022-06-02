@@ -8,6 +8,7 @@ jobs:
   release:
     runs-on: ubuntu-latest
     steps:
+      - if: false # Remove when ready to release
       - uses: actions/checkout@v2
 
       - id: tag
