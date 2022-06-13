@@ -64,7 +64,7 @@ library
 
 test-suite spec
   type: exitcode-stdio-1.0
-  main-is: Main.hs
+  main-is: Spec.hs
   other-modules:
       Paths_haskell_library_template
   hs-source-dirs:
