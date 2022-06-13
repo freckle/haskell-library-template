@@ -32,10 +32,8 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: rwe/actions-hlint-setup@v1
-        with:
-          version: 3.3.6
-      - uses: rwe/actions-hlint-run@v2
+      - uses: actions/checkout@v3
+      - uses: haskell/actions/actions-hlint-setup@v2
+      - uses: haskell/actions/actions-hlint-run@v2
         with:
           fail-on: warning
