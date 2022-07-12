@@ -26,8 +26,9 @@ the release workflow.
 ## Open repo up to [hacktoberfest][hacktoberfest] contributions
 
 Add the `hacktoberfest` topic to your repo if
- - you're planning on releasing it as open source, and
- - you think it would benefit from and be amenable to public contributions
+
+- you're planning on releasing it as open source, and
+- you think it would benefit from and be amenable to public contributions
 
 ---
 
