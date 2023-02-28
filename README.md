@@ -30,8 +30,8 @@ Add the `hacktoberfest` topic to your repo if
 - you're planning on releasing it as open source, and
 - you think it would benefit from and be amenable to public contributions
 
+[hacktoberfest]: https://hacktoberfest.digitalocean.com/
+
 ---
 
 [CHANGELOG](./CHANGELOG.md) | [LICENSE](./LICENSE)
-
-hacktoberfest: https://hacktoberfest.digitalocean.com/
