@@ -46,13 +46,18 @@ Haskell library template used at Freckle.
 
 ```sh
 gh repo create --template freckle/haskell-library-template --public freckle/<name>
+git clone git@github.com:freckle/<name>
+cd ./<name>
 ```
 
 ### Rename your package
 
 ```sh
-sed -i s/haskell-library-template/my-name/ ./**/*
+find -type f -exec \
+  sed -i s/haskell-library-template/my-name/ {} +
 ```
+
+Edit `package.yaml` as necessary.
 
 ### Enable release
 
