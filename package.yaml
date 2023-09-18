@@ -3,8 +3,13 @@ version: 0.0.0.0
 maintainer: Freckle Education
 category: Utils
 github: freckle/haskell-library-template
-synopsis: "[synopsis]"
-description: Please see README.md
+synopsis: Short synopsis here
+description: |
+  Longer description here
+
+  Haddocks are more valuable if you reproduce the main README example here, but
+  you can also just direct users to the README if you prefer not to take on that
+  duplication burden.
 
 extra-doc-files:
   - README.md

@@ -6,8 +6,12 @@ cabal-version: 1.18
 
 name:           haskell-library-template
 version:        0.0.0.0
-synopsis:       [synopsis]
-description:    Please see README.md
+synopsis:       Short synopsis here
+description:    Longer description here
+                .
+                Haddocks are more valuable if you reproduce the main README example here, but
+                you can also just direct users to the README if you prefer not to take on that
+                duplication burden.
 category:       Utils
 homepage:       https://github.com/freckle/haskell-library-template#readme
 bug-reports:    https://github.com/freckle/haskell-library-template/issues
