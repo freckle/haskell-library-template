@@ -73,3 +73,9 @@ tests:
     dependencies:
       #- haskell-library-template
       - hspec
+
+  readme:
+    main: README.lhs
+    ghc-options: -pgmL markdown-unlit
+    dependencies:
+      - markdown-unlit
