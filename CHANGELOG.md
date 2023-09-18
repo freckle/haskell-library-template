@@ -1,3 +1,5 @@
 ## [_Unreleased_](https://github.com/freckle/haskell-library-template/compare/v__...main)
 
-- Unreleased features
+## [v0.0.0.0](https://github.com/freckle/haskell-library-tempalte/tree/v0.0.0.0)
+
+First tagged release.
