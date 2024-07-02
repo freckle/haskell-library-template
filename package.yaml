@@ -78,6 +78,7 @@ tests:
     dependencies:
       #- haskell-library-template
       - hspec
+      - hspec-junit-formatter
 
   readme:
     main: README.lhs
