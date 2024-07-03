@@ -37,6 +37,9 @@ when:
     ghc-options:
       - -Wno-missing-safe-haskell-mode
       - -Wno-prepositive-qualified-module
+  - condition: "impl(ghc >= 8.8)"
+    ghc-options:
+      - -fwrite-ide-info
 
 dependencies:
   - base < 5
@@ -78,6 +81,7 @@ tests:
     dependencies:
       #- haskell-library-template
       - hspec
+      - hspec-junit-formatter
 
   readme:
     main: README.lhs
