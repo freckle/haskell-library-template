@@ -32,12 +32,8 @@ jobs:
       - uses: actions/checkout@v4
       - id: stack
         uses: freckle/stack-action@v5
-        with:
-          stack-yaml: ${{ matrix.stack-yaml }}
-      - if: ${{ matrix.stack-yaml == 'stack.yaml' }}
-        uses: freckle/weeder-action@v2
-        with:
-          ghc-version: ${{ steps.stack.outputs.compiler-version }}
+        env:
+          STACK_YAML: ${{ matrix.stack-yaml }}
 
   lint:
     runs-on: ubuntu-latest
