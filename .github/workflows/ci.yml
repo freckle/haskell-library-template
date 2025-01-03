@@ -34,8 +34,6 @@ jobs:
         uses: freckle/stack-action@v5
         env:
           STACK_YAML: ${{ matrix.stack-yaml }}
-        with:
-          stack-yaml: ${{ matrix.stack-yaml }}
       - if: ${{ matrix.stack-yaml == 'stack.yaml' }}
         uses: freckle/weeder-action@v2
         with:
