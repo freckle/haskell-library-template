@@ -33,7 +33,7 @@ library
   other-modules:
       Paths_haskell_library_template
   hs-source-dirs:
-      library
+      src
   default-extensions:
       BangPatterns
       DataKinds
@@ -124,7 +124,7 @@ test-suite spec
       WhateverSpec
       Paths_haskell_library_template
   hs-source-dirs:
-      tests
+      test
   default-extensions:
       BangPatterns
       DataKinds
