@@ -1,3 +1,4 @@
-.stack-work
 *.hie
 .hiedb
+.stack-work
+stack*.yaml.lock

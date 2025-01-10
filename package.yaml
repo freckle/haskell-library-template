@@ -30,6 +30,10 @@ ghc-options:
   - -Wno-unsafe
 
 when:
+  - condition: "impl(ghc >= 9.8)"
+    ghc-options:
+      - -Wno-missing-role-annotations
+      - -Wno-missing-poly-kind-signatures
   - condition: "impl(ghc >= 9.2)"
     ghc-options:
       - -Wno-missing-kind-signatures
@@ -71,12 +75,12 @@ default-extensions:
   - TypeFamilies
 
 library:
-  source-dirs: library
+  source-dirs: src
 
 tests:
   spec:
     main: Spec.hs
-    source-dirs: tests
+    source-dirs: test
     ghc-options: -threaded -rtsopts "-with-rtsopts=-N"
     dependencies:
       #- haskell-library-template
