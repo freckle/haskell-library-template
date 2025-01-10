@@ -30,6 +30,10 @@ ghc-options:
   - -Wno-unsafe
 
 when:
+  - condition: "impl(ghc >= 9.8)"
+    ghc-options:
+      - -Wno-missing-role-annotations
+      - -Wno-missing-poly-kind-signatures
   - condition: "impl(ghc >= 9.2)"
     ghc-options:
       - -Wno-missing-kind-signatures
