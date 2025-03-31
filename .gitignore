@@ -2,3 +2,5 @@
 .hiedb
 .stack-work
 stack*.yaml.lock
+.envrc
+.direnv
