@@ -44,6 +44,9 @@ Haskell library template used at Freckle.
 
 ### Create your repo
 
+If you are working within the freckle org, use [github-vending-machine][ghvm]. Otherwise:
+
+[ghvm]: https://github.com/freckle/github-vending-machine
 ```sh
 gh repo create --template freckle/haskell-library-template --public freckle/<name>
 git clone git@github.com:freckle/<name>
