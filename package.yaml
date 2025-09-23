@@ -90,5 +90,5 @@ tests:
   readme:
     main: README.lhs
     ghc-options: -pgmL markdown-unlit
-    dependencies:
+    build-tools:
       - markdown-unlit
