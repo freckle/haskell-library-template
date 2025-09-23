@@ -14,7 +14,6 @@ _Synopsis_
 module Main (main) where
 
 import Prelude
-import Text.Markdown.Unlit ()
 ```
 -->
 
